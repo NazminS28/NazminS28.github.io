@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Images/port_image.jpg"
+      type="image/x-icon"
+    />
+    <title>Nazmin Shaikh | Full Stack Web Developer</title>
+    <script
+      src="https://kit.fontawesome.com/40eef63782.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./dist/github-calendar.css" />
+    <link rel="stylesheet" href="./dist/github-calendar-responsive.css" />
+    <link rel="stylesheet" href="./dist/Style/allScreenSize.css" />
+    <link rel="stylesheet" href="./dist/Style/mediumScreenSize.css" />
+    <link rel="stylesheet" href="./dist/Style/smallScreenSize.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="name_image">
+        <div>
+          <img src="./Images/port_image.jpg" alt="Nazmin-Shaikh" />
+        </div>
+        <p>NAZMIN SHAIKH</p>
+      </div>
+      <div id="tabs">
+        <div><a href="#brief">HOME</a></div>
+        <div><a href="#about_me">ABOUT</a></div>
+        <div><a href="#project">PROJECTS</a></div>
+        <div><a href="#contact">CONTACT</a></div>
+        <div id="dropdown">
+          <i class="fa-solid fa-bars fa-2x" id="bar"></i>
+          <i class="fa-solid fa-xmark fa-2x" id="cross"></i>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <hr />
+      <a href="#brief">HOME</a>
+      <hr />
+      <a href="#about_me">ABOUT</a>
+      <hr />
+      <a href="#project">PROJECTS</a>
+      <hr />
+      <a href="#contact">CONTACT</a>
+      <hr />
+    </div>
+    <div id="brief">
+      <img id="landscape" src="./Images/Landscape.jpg" alt="error" />
+      <img id="portrait" src="./Images/portrait_edited.jpeg" alt="error" />
+      <div>
+        <img src="./Images/port_image.jpg" alt="Nazmin-Shaikh" />
+        <div id="name_tag">HEY, I'M NAZMIN SHAIKH</div>
+        <div id="brief_detail">
+          A focused Full Stack Web Developer, passionate about implementing
+          technical knowledge in real time projects.
+        </div>
+        <a
+          href="./Images/NazminShaikh_Resume.pdf"
+          download="Nazmin-Shaikh_Resume"
+          ><button id="resume_redirect">Resume</button></a
+        >
+      </div>
+      <div id="contact_details">
+        <div>
+          <div>
+            <a href="mailto:shaikhnazmin1328@gmail.com" target="_blank"
+              ><i class="fa-solid fa-envelope fa-2x"></i
+            ></a>
+          </div>
+          <div>
+            <a href="tel:+9742107378"
+              ><i class="fa-solid fa-phone fa-2x"></i
+            ></a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/nazmin-shaikh-83a725171"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin fa-2x"></i
+            ></a>
+          </div>
+          <div>
+            <a href="https://github.com/NazminS28" target="_blank"
+              ><i class="fa-brands fa-github fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about_me" class="sections">
+      <p class="tags">ABOUT ME</p>
+      <div class="line"></div>
+      <div class="about_the_section">
+        Here you will find more information about me, my current skills mostly
+        in terms of programming and technology
+      </div>
+      <div id="description_skills">
+        <div>
+          <p><b> Get to know me!</b></p>
+          <p>
+            I'm a <b>Full Stack Web Developer</b>, having knowledge of core
+            Java, spring boot as well as some frontend technologies like html,
+            css and Javascript. I'm passionate about building the projects using
+            the technical knowledge, that I gained. Checkout some of my work in
+            <a href="#project"><b>Projects</b></a> section
+          </p>
+          <p>
+            I'm open to <b>Job</b> opportunities. If you think my skills are
+            relevant to your job requirements then do
+            <a href="#contact"><b>contact</b></a> me.
+          </p>
+        </div>
+        <div>
+          <p><b>My Skills</b></p>
+          <div id="skills">
+            <div>Backend Development</div>
+            <div>Data Structures and Algorithm</div>
+            <div>Collaborative skills</div>
+            <div>Frontend Development</div>
+            <div>Team-work</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="tech_stack" class="sections">
+      <p class="tags">TECH STACKS</p>
+      <div class="line"></div>
+      <div class="about_the_section">
+        Below are the tech stacks and tools I have worked with
+      </div>
+      <div id="tech">
+        <!-- insert the tech stacks -->
+      </div>
+    </div>
+    <div id="github_Calender" class="sections">
+      <p class="tags">GITHUB CONTRIBUTION CALENDER</p>
+      <div class="line"></div>
+      <div class="about_the_section">
+        Here find my github contribution over last months
+      </div>
+      <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+      <!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/> -->
+      <div class="calendar" style="width: 80%; margin: auto">
+        <!-- Loading calender -->
+      </div>
+      <script>
+        GitHubCalendar(".calendar", "NazminS28");
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "NazminS28", { responsive: true });
+      </script>
+      <div style="margin: auto">
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=NazminS28&show_icons=true&locale=en"
+          alt="NazminS28"
+        />
+      </div>
+      <!-- <div>
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=NazminS28&" alt="NazminS28" />
+
+        </div> -->
+    </div>
+    <!-- <div id="statistics" class="sections">
+        <p class="tags">STATISTICS</p>
+        <div class="line"></div>
+        <div class="about_the_section">My overall statistics over different aspects of learning</div>
+        <div id="stats">
+            <div>
+                <p>300+</p> 
+                <p>hrs of DSA</p>
+            </div>
+            <div>
+                <p>800+</p> 
+                <p>hrs of Coding</p>
+            </div>
+            <div>
+                <p>300+</p> 
+                <p>Git Commits</p>
+            </div>            
+        </div>
+    </div> -->
+    <div id="project" class="sections">
+      <p class="tags">PROJECTS</p>
+      <div class="line"></div>
+      <div class="about_the_section">
+        Here find the projects that I've done. Find the deployed link and github
+        link of respective projects
+      </div>
+      <div id="projects_div">
+        <!-- using javscript for the same -->
+      </div>
+    </div>
+    <div id="contact" class="sections">
+      <p class="tags">CONTACT</p>
+      <div class="line"></div>
+      <div class="about_the_section">Find my contact details below</div>
+      <div id="block">
+        <div>
+          <a
+            href="mailto:shaikhnazmin1328@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div><i class="fa-solid fa-envelope fa-2x"></i></div>
+          </a>
+        </div>
+        <div>
+          <a href="tel:+9742107378">
+            <div><i class="fa-solid fa-phone fa-2x" id="span"></i></div>
+          </a>
+        </div>
+        <div>
+          <a href="www.linkedin.com/in/nazmin-shaikh-83a725171" target="_blank">
+            <div><i class="fa-brands fa-linkedin fa-2x"></i></div>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/NazminS28" target="_blank">
+            <div><i class="fa-brands fa-github fa-2x"></i></div>
+          </a>
+        </div>
+      </div>
+      <div id="block1">
+        <div>
+          <a
+            href="mailto:shaikhnazmin1328@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div><i class="fa-solid fa-envelope"></i></div>
+          </a>
+        </div>
+        <div>
+          <a href="tel:+9742107378">
+            <div><i class="fa-solid fa-phone" id="span"></i></div>
+          </a>
+        </div>
+        <div>
+          <a href="www.linkedin.com/in/nazmin-shaikh-83a725171" target="_blank">
+            <div><i class="fa-brands fa-linkedin"></i></div>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/NazminS28" target="_blank">
+            <div><i class="fa-brands fa-github"></i></div>
+          </a>
+        </div>
+      </div>
+      <div id="footerInfo">
+        <p>NAZMIN SHAIKH</p>
+        <div>
+          <p>
+            A focused Full Stack Web Developer, passionate about implementing
+            technical knowledge in real time projects.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="project.js"></script>
+</html>
