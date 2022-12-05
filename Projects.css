@@ -36,7 +36,7 @@
 .nzlayer{
 	width: 100%;
 	height: 0;
-	background: linear-gradient(rgba(0,0,0,1.1), #0313f5);
+	background: linear-gradient(rgba(0,0,0,1.1), rgb(38, 18, 215));
 	position: absolute;
 	border-radius: 8px;
 	left: 0;
@@ -108,6 +108,17 @@
   background-color: #2222;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.techstack{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  justify-items: center;
+
+}
+.techstack img{
+  width: 5%;
+  
 }
 /*.project1,.project2{
     width: 78%;
