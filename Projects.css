@@ -5,6 +5,8 @@
 	overflow: hidden;
 	border-radius: 8px;
 	cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .nzrow img{
 	width: 100%;
@@ -32,6 +34,9 @@
 	align-items: center;
 	gap: 2.0rem;
 	margin-top: 3rem;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+
 }
 .nzlayer{
 	width: 100%;
